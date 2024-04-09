@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="show()">Click me</button>
+    <script>
+        function show(){
+            console.log("Button clicked")
+            var a=2
+            var b=3
+            var sum=a+b
+            console.log("sum:"+sum)
+            let d=5
+            // let d=5 will give error
+            d=6
+            // var a=5 will not give error
+            const pi=3.14
+            if(a%2==0){
+                console.log('HI')
+            }
+            for(var i=0;i<10;i++){
+                console.log(i)
+            }
+            var arr=["apple",1,"sdw"]
+            console.log(arr)
+
+            var person={
+                name:"Angela",
+                age:20
+            }
+            console.log(person.name)
+            var details=[{ name:"Angela", age:20},{ name:"Ashley",
+                age:22}]
+            console.log(details)
+
+        }
+    </script>
+</body>
+</html>
