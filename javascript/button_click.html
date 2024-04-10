@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="textbox">
+    <button onclick="display()">Click</button>
+    <h1 id="new_text"></h1>
+    <script>
+        function display()
+        {
+            var text=document.getElementById("textbox").value
+            document.getElementById("new_text").innerHTML=text
+            //alert(text)// a pop up will be displayed
+            if(text=="Alli")
+            {
+                alert(text)
+            }
+        }
+       
+
+    </script>
+</body>
+</html>
